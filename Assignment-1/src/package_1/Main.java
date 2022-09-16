@@ -12,34 +12,34 @@ public class Main {
 		
 		// FIRST QUESTION
 		
-//		Student [] s = new Student[5];
-//		
-//		String name;
-//		int age, rollNo, marks;
-//			
-//			for(int i=0; i<s.length; i++) {
-//				name = sc.next();
-//				age = sc.nextInt();
-//				rollNo = sc.nextInt();
-//				marks = sc.nextInt();
-//				
-//				if(marks < 30) System.out.println("**Marks less than 30 cannot be accepted**");
-//				else s[i] = new Student(name, age, rollNo, marks);
-//			}
-//			
+		Student [] s = new Student[5];
+		
+		String name;
+		int age, rollNo, marks;
+			
+			for(int i=0; i<s.length; i++) {
+				name = sc.next();
+				age = sc.nextInt();
+				rollNo = sc.nextInt();
+				marks = sc.nextInt();
+				
+				if(marks < 30) System.out.println("**Marks less than 30 cannot be accepted**");
+				else s[i] = new Student(name, age, rollNo, marks);
+			}
+			
 		
 		//SECOND QUESTION
 		
-//		String str = "rainy days are the best";
-//		String [] tokens = str.split(" ");
-//		
-//		str = "";
-//		
-//		for(int i=0; i<tokens.length; i++) {
-//			str +=( (char) (tokens[i].charAt(0)-'a'+'A') )+ tokens[i].substring(1) + " ";
-//		}
-//		
-//		System.out.println(str);
+		String str = "rainy days are the best";
+		String [] tokens = str.split(" ");
+		
+		str = "";
+		
+		for(int i=0; i<tokens.length; i++) {
+			str +=( (char) (tokens[i].charAt(0)-'a'+'A') )+ tokens[i].substring(1) + " ";
+		}
+		
+		System.out.println(str);
 	
 	
 	//THIRD QUESTION
