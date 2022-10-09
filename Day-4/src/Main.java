@@ -57,7 +57,7 @@ public class Main {
 		}
 		catch(InvalidSalaryException e) {
 			
-			System.out.println("Salary cannot be less than 10000");
+			e.statement();
 		}
 		
 	}
