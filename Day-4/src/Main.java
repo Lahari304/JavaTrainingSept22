@@ -54,7 +54,6 @@ public class Main {
 			salary = sc.nextInt();
 			
 			cand = new Candidate(name, gender, salary);
-			cand.display();
 		}
 		catch(InvalidSalaryException e) {
 			
