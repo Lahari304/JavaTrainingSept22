@@ -15,8 +15,4 @@
   <url-pattern>/login</url-pattern>
   </servlet-mapping>
   
-  <servlet-mapping>
-  <servlet-name>success</servlet-name>
-  <url-pattern>/success</url-pattern>
-  </servlet-mapping>
 </web-app>
